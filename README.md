@@ -64,7 +64,7 @@ A Arquitetura Orientada a Eventos (EDA) é um estilo de arquitetura que se conce
 
 ## Cenário
 
-![Cenário](cenario1.png)
+![Cenário](images/cenario1.png)
 
 ## BROKER (Apache Kafka)
 
@@ -78,18 +78,18 @@ A Arquitetura Orientada a Eventos (EDA) é um estilo de arquitetura que se conce
 ### Request-Driven (APIs REST)
 - **Sincrona**
 - Exemplo de Fluxo: 
-  ![Request-Driven](request-driven.png)
+  ![Request-Driven](images/request-driven.png)
 
 ### Event-Driven
 - **Assíncrona**
 - Exemplo de Fluxo:
-  ![Event-Driven](event-driven.png)
+  ![Event-Driven](images/event-driven.png)
 
 ## Estrutura da EDA
 
 Uma arquitetura orientada a eventos consiste em produtores de eventos que geram um fluxo de eventos e consumidores de eventos que escutam os eventos.
 
-![Estrutura da EDA](estrutura-eda.png)
+![Estrutura da EDA](images/estrutura-eda.png)
 
 - **Produtores e Consumidores Desacoplados:** Os produtores estão dissociados dos consumidores.
 - **Consumidores Desacoplados entre Si:** Os consumidores também estão dissociados uns dos outros.
@@ -97,17 +97,17 @@ Uma arquitetura orientada a eventos consiste em produtores de eventos que geram 
 
 ## Exemplo de Implementação
 
-![Exemplo de Implementação](exemplo1.png)
+![Exemplo de Implementação](images/exemplo1.png)
 
 ## EDA - Publisher/Subscriber (pub/sub)
 
-![Pub/Sub](pub-sub.png)
+![Pub/Sub](images/pub-sub.png)
 
 A infraestrutura de mensagens monitora as assinaturas; quando um evento é publicado, ele o envia para cada assinante. Depois que um evento for recebido, ele não pode ser reproduzido e novos assinantes não veem o evento.
 
 ## EDA - Event Streaming
 
-![Event Streaming](event-streaming.png)
+![Event Streaming](images/event-streaming.png)
 
 Os eventos são gravados em um log, são estritamente ordenados (dentro de uma partição) e persistidos. Os clientes não se inscrevem no fluxo; em vez disso, um cliente pode ler de qualquer parte do fluxo. O cliente é responsável por avançar sua posição no fluxo, o que significa que um cliente pode participar a qualquer momento e pode repetir eventos.
 
