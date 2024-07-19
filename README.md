@@ -159,7 +159,7 @@ Os eventos são gravados em um log, são estritamente ordenados (dentro de uma p
 ##  Referências
 
 - [Dotnet e Apache Kafka | Trabalhando com o Broker de mensageria mais utilizado](https://www.youtube.com/watch?v=TJaeu-CQEuU&list=PLDlCoOcmGJFtHvHrVRN5f9p0szeF15R80)
-- [# .NET - Apresentando Event-Driven Architecture](https://www.youtube.com/watch?v=9_tpsmdKPkM&list=PLDlCoOcmGJFtHvHrVRN5f9p0szeF15R80&index=2)
+- [.NET - Apresentando Event-Driven Architecture](https://www.youtube.com/watch?v=9_tpsmdKPkM&list=PLDlCoOcmGJFtHvHrVRN5f9p0szeF15R80&index=2)
 
 ## Autores
 
